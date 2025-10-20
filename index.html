@@ -27,7 +27,18 @@ let userChoice = prompt("Who are you? Bear, Hunter, or Ninja:  ");
 alert(choiceMessage);
 
 //display computer choice
-alert("The computer picked Bear!");
+if (userChoice === "bear") {
+	console.log('The computer picked Ninja!');
+	alert('The computer picked Ninja!');
+}
+if (userChoice === "Ninja") {
+	console.log('The computer picked Hunter!');
+	alert('The computer picked Hunter!');
+}
+if (userChoice === "Hunter") {
+	console.log('The computer picked Bear!');
+	alert('The computer picked Bear!');
+}
 </script>
 </body>
 </html>
